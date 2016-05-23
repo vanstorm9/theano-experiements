@@ -13,4 +13,4 @@ f = theano.function([a,b], c)
 
 # bind 1.5 to 'a', 2.5 to 'b', and evaluate 'c'
 result = f(1.5,2.5)
-print(result)
+print result
